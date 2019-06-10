@@ -57,11 +57,37 @@ print(f"Down_payment: ${down_payment}")
 
 # If the applicant has high income and good credit, then they are elligible for loan.
 has_high_income =True
-has_good_credit =True
+has_good_credit =False
 if has_high_income and has_good_credit:
     print("Elligible for loan")
 else:
     print("None")
+
+# At least given one condition is true
+has_high_income =True
+has_good_credit = False
+if has_high_income or has_good_credit:
+    print("Elligible for loan")
+else:
+    print("None")
+
+# Comparision operators
+# If temperature is greater than 30, its a hot day. Otherwise, it is less than 30, its a cold day.
+# Otherwise, its neither hot nor cold.
+
+temp= 40
+if temp > 30:
+    print("It's a hot day")
+else:
+    print("It's a cold day")
+
+name = "John Mumba"
+if len(name) < 3:
+    print("Name must be at least 3 characters")
+elif len(name) > 50:
+    print("Name must at least be maximum of 50 characters")
+else:
+    print("Name looks good")
 
 
 
