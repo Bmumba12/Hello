@@ -13,13 +13,63 @@
 
 #Strings
 
-emal = '''
-Hello Mumba,
+# emal = '''
+# Hello Mumba,
 
-I have been waiting to hear from you today.
-Please return as soon as you receive this message.
+# I have been waiting to hear from you today.
+# Please return as soon as you receive this message.
 
-Thanks
+# Thanks
 
-'''
-print(emal)
+# '''
+# print(emal)
+
+course = 'This is my python first course'
+# print(len(course))
+# print(course.upper())
+# print(course)
+# print(course.replace("my python first course", "python course absolutely for beginners"))
+# print('my python' in course)
+
+# is_hot = False
+# is_cold = False
+# if is_hot:
+    # print("It's a hot day")
+    # print(" Drink a lot of water")
+# elif is_cold:
+    # print("It's a cold day")
+    # print("Wear warm cloths")
+# else:
+    # print("It's a lovely day")
+# print("Enjoy your day")
+
+# Suppose the price of a house is $1M. If the buyer has good credit, they need to put down 10% of
+# of the price of the house. Otherwise, they need to put down 20%. Write a program with these rules and print
+# print down the down payment of the buyer with good credit.
+
+price = 1000000
+good_buyer = True
+if good_buyer:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price
+print(f"Down_payment: ${down_payment}")
+
+# If the applicant has high income and good credit, then they are elligible for loan.
+has_high_income =True
+has_good_credit =True
+if has_high_income and has_good_credit:
+    print("Elligible for loan")
+else:
+    print("None")
+
+
+
+
+
+
+
+
+
+
+
