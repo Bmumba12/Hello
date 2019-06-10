@@ -1,4 +1,4 @@
-#name1 = input('What is your name?   ')
+# name1 = input('What is your name?   ')
 #ycolor = input('what is your favorite?  ')
 #print(name1 + ' likes ' + ycolor)
 
@@ -89,7 +89,14 @@ elif len(name) > 50:
 else:
     print("Name looks good")
 
+# While loops: While followed by a condition...... A string multiplied by a number
+# a repeat of a string is produced equavelent to the number multiplied by it.
 
+w=1
+while w <=5:
+    print('*' * w)
+    w = w + 1
+print("done")
 
 
 
