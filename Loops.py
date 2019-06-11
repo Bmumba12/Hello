@@ -28,4 +28,32 @@ for L_count in Number:
         output+= 'L'
     print(output)
 
+# Printing the maximum number in a list
+numbers = [2, 4, 6, 7, 8, 9, 11, 1, 23, 3, 50]
+max = numbers[0]
+for x in numbers:
+    if x > max:
+        max = x
+print(max)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
