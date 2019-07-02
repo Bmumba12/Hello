@@ -36,7 +36,13 @@ for x in numbers:
         max = x
 print(max)
 
-
+# Removing duplicates
+numb = [2, 2, 2, 3, 4, 5, 6, 7, 6, 8, 8, 9, 7, 4, 5, 3, 2, 1]
+unique=[]
+for x in numb:
+    if x not in unique:
+        unique.append(x)
+print(unique)
 
 
 
