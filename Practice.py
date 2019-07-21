@@ -1,19 +1,19 @@
-# guessing game....
-#secret_num = 10
-#guess_count = 0
-#guess_limit = 5
-#guess = ''
-#while guess_count < guess_limit:
-   # guess = int(input('Guess: '))
-    #guess_count +=1
-    #if guess == secret_num:
-        #print('You have won the game')
-       # break
-#else:
-    #print('Sorry try again')
+ ### guessing game....
+secret_num = 10
+guess_count = 0
+guess_limit = 5
+guess = ''
+while guess_count < guess_limit:
+    guess = int(input('Guess: '))
+    guess_count +=1
+    if guess == secret_num:
+        print('You have won the game')
+        break
+else:
+    print('Sorry try again')
 
 ######################################################
-# car start game
+ ## car start game
 user_command = ''
 Car_started = False
 while True:
@@ -41,29 +41,29 @@ quit = to quit """)
         print("Sorry I dont understand you")
 #######################################################################################
 
-#for x in range (1,5):
-    #for y in range (1,5):
-        #print(f'({x}, {y})')
+for x in range (1,5):
+    for y in range (1,5):
+        print(f'({x}, {y})')
 
 
 ##############################################
-# Printing phone numbers in words
-#phone= input("Phone: ")
-#digits_map = {"0":'Zeor', '1':'One', '2':'Two', '3':"Three", '4':'Four', '5':'Five', '6':'Six'}
-#output = " "
-#for ch in phone:
-    #output += digits_map.get(ch, '!') + " "
-#print(output)
+#Printing phone numbers in words
+phone= input("Phone: ")
+digits_map = {"0":'Zeor', '1':'One', '2':'Two', '3':"Three", '4':'Four', '5':'Five', '6':'Six'}
+output = " "
+for ch in phone:
+    output += digits_map.get(ch, '!') + " "
+print(output)
 
 ##################################################
 
-#message = input(">")
-#words = message.split(" ")
-#emojis = {":)":"😍", ":(":"😒"}
-#output_1 = ""
-#for word in words:
-    #output_1+=emojis.get(word, word) + " "
-#print(output_1)
+message = input(">")
+words = message.split(" ")
+emojis = {":)":"😍", ":(":"😒"}
+output_1 = ""
+for word in words:
+    output_1+=emojis.get(word, word) + " "
+print(output_1)
 
 
 ###########################################################
