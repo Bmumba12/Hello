@@ -1,7 +1,6 @@
 
 #for name in range(1,21,2):
     # print(name)
-
 prices= [5, 10, 15, 20, 25]
 total= 0
 for price in prices:
